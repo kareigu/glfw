@@ -26,6 +26,10 @@ project "GLFW"
 		"src/window.c",
 	}
 
+	includedirs {
+    		"include/"
+  	}
+
 	filter "system:linux"
 		pic "On"
 
